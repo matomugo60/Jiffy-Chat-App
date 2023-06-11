@@ -11,14 +11,13 @@ import {useCollectionData} from 'react-firebase-hooks/firestore'
 import {ChatMessageProps, Message} from './types'
 
 firebase.initializeApp({
-  apiKey: "AIzaSyDn7t2fWO7jTqc-PxvSTAgai_U7bzShERc",
-  authDomain: "chat-app-1b4f3.firebaseapp.com",
-  databaseURL: "https://chat-app-1b4f3.firebaseio.com",
-  projectId: "chat-app-1b4f3",
-  storageBucket: "chat-app-1b4f3.appspot.com",
-  messagingSenderId: "2192122424",
-  appId: "1:2192122424:web:262325b5366bcf086c7ccd",
-  measurementId: "G-KJTC4JJQXJ"
+  apiKey: "AIzaSyBedX3ySvigzI0R_rzd8ptunM4qhTimKMg",
+  authDomain: "chat-app-52f69.firebaseapp.com",
+  projectId: "chat-app-52f69",
+  storageBucket: "chat-app-52f69.appspot.com",
+  messagingSenderId: "740712381082",
+  appId: "1:740712381082:web:8478b785a14c9370373d23",
+  measurementId: "G-1QFZL6NEK3"
 })
 
 const auth = firebase.auth()
